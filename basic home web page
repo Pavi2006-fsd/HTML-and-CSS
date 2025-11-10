@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shoping</title>
+
+    <style> 
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+        display: grid;
+        }
+        .one {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 400px; 
+  top: 250px;
+  color:white;
+  background-color:cornflowerblue;
+}
+ .two {
+  float:left;
+  width: 33.33%;
+  padding: 10px;
+  height: 400px; 
+  top: 250px;
+  color:white;
+  background-color: green;
+}
+ .three {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 400px; 
+  top: 250px;
+ color:white;
+  background-color: orange;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+li{
+        display: inline-block;
+        padding: 30px;
+        font-size: 20px;
+        color:white;
+        font-weight: bold;
+}
+ul{
+        background-color:black;
+    }
+
+    .nav{
+        width: 100%;
+        margin-top: -330px;
+        position: sticky;
+        top:90px;
+        width:auto;
+    }
+.header{
+            background-color: lightgoldenrodyellow;
+            text-align: center;
+            color: darkgreen;
+            padding: 10px;
+            margin-top: 0px;
+            width:auto;
+            height: auto;
+}
+img{
+     width:100px;
+     height:100px;
+     margin-left:130px;
+}
+button{
+    background-color: darkorange;
+    padding: 10px;
+    border-radius:5px;
+    margin-left:130px;
+    cursor:pointer;
+    font-weight:bold;
+}
+button:hover{
+    background-color:blueviolet;
+}
+.footer{
+    text-align: center;
+    background-color: lightslategrey;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+        <h1>Online Shopping Website</h1>
+    </div>
+
+    <div class="nav">
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+        <li>Products</li>
+        <li>Review</li>
+        <li>Help</li>
+        <li>Shoping Details</li>
+        <li>Login</li>
+    </ul>
+</div>
+<div class="row">
+<div class="one">
+         <br><br><br><br>
+    <h2 style="text-align:center;">Women</h2>
+    <img src="women.jpeg">
+<p>Women's dresses are timeless symbols of beauty and style.<br>
+ They come in many designs, fabrics, and patterns, reflecting culture, comfort, and individuality.<br>
+  Modern dresses blend elegance with everyday fashion.</p>
+  <button>Click to Show</button>
+</div>
+<div class="two">
+     <br><br><br><br>
+    <h2 style="text-align:center;">Men</h2>
+    <img src="men1.jpeg">
+<p>Men's dress represents style, comfort, and confidence.<br>
+   From formal suits to casual wear, men's clothing has evolved
+    to suit modern lifestyles while maintaining elegance and professionalism.</p>
+     <button>Click to Show</button>
+</div>
+<div class="three">
+         <br><br><br><br>
+    <h2 style="text-align:center;">Kids</h2>
+    <img src="kids.jpeg">
+<p>Kids dresses are designed for comfort, color, and fun.<br>
+They reflect innocence and joy while allowing children to move 
+freely and express their personality through bright designs and patterns.</p>
+ <button>Click to Show</button>
+</div>
+</div>
+<div class="footer">
+    <h3>Welcome to Online Shoping Website</h3>
+    <p>contanct number:78804 36456
+    email id:onlineshoping@gmail.com
+    Copyright @ 2024 Pavi.com</p>
+</div>
+</div>
+</body>
+</html>
