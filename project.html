@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namma Website</title>
+    <style>
+        body{
+            font-family:'Times New Roman', Times, serif;
+        }
+        .nav{
+            display: flex;
+            padding: 10px;
+            justify-content: end;
+            gap: 30px;
+            
+        }
+        .navitem{
+            background-color: aliceblue;
+            color:blue;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;       
+        }
+
+        .navitem:hover{
+            background-color:gold;
+        }
+       
+        .content{
+            text-align: center;
+            padding-bottom: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+
+        }
+        .item{
+            width:200px;
+            box-shadow: 5px 5px 5px brown;
+            height:250px;
+            border-radius: 10px;
+            background-color:white;
+
+        }
+    
+        button{
+            background-color:orange;
+            font-size: 14px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+        }
+        button:hover{
+            background-color: red;
+            box-shadow:4px 4px 4px orangered;
+        }
+
+        .header{
+           text-align:center;
+           background-color:black;
+           color: white;
+           padding: 10px;
+        }
+        .header:hover{
+            background-color: purple;
+            color: yellow;
+        }
+
+        .container {
+         display: grid;
+         grid-template-columns: repeat(5, 1fr);
+         gap: 20px;
+         background-color: bisque;
+         padding: 10px;
+        }
+
+        .item {
+        width: 100%;
+        max-width: 200px;
+        box-shadow: 3px 5px 3px brown;
+        padding: 10px;
+        background: white;
+        border-radius: 10px;
+        margin: auto;
+        }
+
+        .item img {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Nammma Website</h1>
+        <div class="nav">
+            <div class="navitem">Home</div>
+            <div class="navitem">About</div>
+            <div class="navitem">Contact</div>
+            <div class="navitem">Blog</div>
+            <button>Login</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="item">
+           <img src="images/apple.jpeg" alt=""   >
+           <div class="content">
+            <h3>Apple</h3>
+            <p>$40.00</p>
+            <button>Buy Now</button>
+           </div>
+           </div>
+        <div class="item">
+           <img src="images/fig.jpeg" alt=""   >
+           <div class="content">
+            <h3>Fig Fruit</h3>
+            <p>$60.00</p>
+            <button>Buy Now</button>
+           </div>
+           </div>
+        <div class="item">
+           <img src="images/dates.jpeg" alt=""   >
+           <div class="content">
+            <h3>Dates</h3>
+            <p>$100.00</p>
+            <button>Buy Now</button>
+           </div>
+            </div>
+        <div class="item">
+           <img src="images/jack.jpeg" alt=""   >
+           <div class="content">
+            <h3>Jack Furit</h3>
+            <p>$150.00</p>
+            <button>Buy Now</button>
+           </div>
+            </div>
+       
+        <div class="item">
+           <img src="images/banana.jpeg" alt=""   >
+           <div class="content">
+            <h3>Banana</h3>
+            <p>$20.00</p>
+            <button>Buy Now</button>
+           </div>
+            </div>
+        <div class="item">
+           <img src="images/gava.jpeg" alt=""   >
+           <div class="content">
+            <h3>Gava</h3>
+            <p>$50.00</p>
+            <button>Buy Now</button>
+           </div>
+            </div>
+        <div class="item">
+           <img src="images/grapes.jpeg" alt=""   >
+           <div class="content">
+            <h3>Grapes</h3>
+            <p>$60.00</p>
+            <button>Buy Now</button>
+           </div>
+           </div>
+          <div class="item">
+           <img src="images/red.jpeg" alt=""   >
+           <div class="content">
+            <h3>Red Banana</h3>
+            <p>$80.00</p>
+            <button>Buy Now</button>
+           </div>
+        </div>
+         <div class="item">
+           <img src="images/pine.jpeg" alt=""   >
+           <div class="content">
+            <h3>Pine Apple</h3>
+            <p>$10.00</p>
+            <button>Buy Now</button>
+           </div>
+            </div>
+        <div class="item">
+           <img src="images/pomo.jpeg" alt=""   >
+           <div class="content">
+            <h3>Pomogranate</h3>
+            <p>$60.00</p>
+            <button>Buy Now</button>
+           </div>
+           </div>
+           
+        </div> 
+</body>
+</html>
