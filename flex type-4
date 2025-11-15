@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Flex Layout </title>
+<style>
+.container {
+  display:flex;
+  flex-direction:column-reverse;
+  background-color:blue;
+  padding: 30px;
+  width: 1000px;
+  gap: 10px;
+  margin:50px;
+}
+.container div {
+  background-color:aqua;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+<body>
+<h1>Flex Layout</h1>
+<div class="container">
+  <div>Name</div>
+  <div>Rollno</div>
+  <div>City</div>  
+  <div>Pavi</div>
+  <div>23ucs0025</div>
+  <div>Dindigul</div>  
+  <div>Lavu</div>
+  <div>23uco161</div>
+  <div>Salem</div>
+</div>
+</body>
+</html>
